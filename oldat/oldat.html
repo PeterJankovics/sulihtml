@@ -6,8 +6,16 @@
 	<title>Oldat</title>
 	<link rel="stylesheet" href="oldat.css"> 
 </head>
-
 <body>
+	<script>
+		function szamol()
+		{
+			let anyag=document.getElementById("oldottAnyag").vlaue*1;
+			let szer=document.getElementById("oldoSzer").vlaue*1;
+			let eredmeny=( anyag / (anyag+szer))*100;
+			document.getElementById("megoldas").innerHTML=eredmeny;
+		}		
+	</script>
 	<div id="tartalom">
 		<h1>Oldat</h1>
 		<p>A többkomponensű, homogén, vagy inhomogén rendszereket összefoglaló néven elegyeknek nevezzük.</p>
@@ -31,13 +39,12 @@
 
 
 		<h2>Feladat</h2>
-		<p>Hány tömegszázalékos az az oldat, amelyben <input type="number" min="0">g sót feloldunk <input type="number" min="0">g vízben?</p>
-		<input type="button" value="Számol">
+		<p>Hány tömegszázalékos az az oldat, amelyben <input type="number" min="0" id="oldottAnyag">g sót feloldunk <input type="number" min="0" id="oldoSzer">g vízben?</p>
+		<input type="button" value="Számol" onclick="szamol()">
 		<p>Eredmény: <span id="megoldas">?</span> m/m%</p>
 
 
-		<p><a href="https://hu.wikipedia.org/wiki/Oldat" target="blank" id="forras"> Wikipedia-Oldat</a></p>
+		<p><a href="https://hu.wikipedia.org/wiki/Oldat" target="_blank"> Wikipedia-Oldat</a></p>
 	</div>
 </body>
-
 </html>
