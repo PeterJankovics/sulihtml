@@ -1,5 +1,15 @@
-#tabla{
+#sor{
     display: flex;
-    background-color: aqua;
-
+    justify-content: center;
+    align-items: center;
+}
+.fe{
+    background-color: rgb(90, 53, 11);
+    width: 100px;
+    height: 100px;
+}
+.f{
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
 }
