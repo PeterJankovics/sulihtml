@@ -1,46 +1,64 @@
 .grid-countainer{
     display: grid;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
     background-color: white;
     width: 700px;
-    height: 700px;
+    height: 900px;
 }
 .grid-countainer > div{
     border: solid 1px black;
 }    
 .item1{
-    grid-area: 1/1/1/8;
+    grid-area: 1/4/1/8;
 }
 .item2{
-    grid-area: 2/7/8/7;
+    grid-area: 2/8/2/8;
 }
 .item3{
-    grid-area: 7/1/7/7;
+    grid-area: 3/9/3/9;
 }
 .item4{
-    grid-area: 7/1/2/1;
+    grid-area: 4/10/8/10;
 }
 .item5{
-    grid-area: 2/2/2/7;
+    grid-area: 8/9/8/9;
 }
 .item6{
-    grid-area: 3/6/7/6;
+    grid-area: 9/8/9/8;
 }
 .item7{
-    grid-area: 6/2/6/6;
+    grid-area: 10/4/10/8;
 }
 .item8{
-    grid-area: 6/2/3/2;
+    grid-area: 9/3/9/3;
 }
 .item9{
-    grid-area: 3/3/3/6;
+    grid-area: 8/2/8/2;
 }
 .item10{
-    grid-area: 4/5/6/5;
+    grid-area: 8/1/4/1;
 }
 .item11{
-    grid-area: 5/3/5/5;
+    grid-area: 3/2/3/2;
 }
 .item12{
-    grid-area: 4/3/4/5
+    grid-area: 2/3/2/3;
+}
+.item13{
+    grid-area: 4/4/6/4;
+}
+.item14{
+    grid-area: 4/7/6/7;
+}
+.item15{
+    grid-area: 7/4/7/8;
+}
+.item16{
+    grid-area: 2/4/9/8;
+}
+.item17{
+    grid-area:
+}
+.item18{
+    grid-area:
 }
