@@ -18,7 +18,7 @@ header{
 }
 nav a{
     color: papayawhip;
-    text-decoration: none;
+    text-decoration: unset;
 }
 nav li{
     list-style: none;
@@ -46,6 +46,12 @@ nav{
 }
 .tartalom{
     background-color: aqua;
+    padding: 15px;
+}
+.tartalom h2{
+    font-family: cursive;
+    text-align: center;
+    font-variant: small-caps;
 }
 footer{
     background-color: yellow;
@@ -84,7 +90,7 @@ footer{
         grid-column: 1;
     }
     .tartalom{
-        grid-column: 2/3;
+        grid-column: 2;
         grid-row: 2/4;
     }
     footer{
@@ -93,7 +99,7 @@ footer{
 }
 @media only screen and (min-width: 1200px){
     #grid-container{
-        grid-template-columns: 25% 50% 25%;
+        grid-template-columns: 15% 60% 25%;
         width: 1200px;
         margin:auto;
     }
@@ -108,8 +114,8 @@ footer{
         grid-column: 3/4;
     }
     .tartalom{
-        grid-column: 2/3;
-        grid-row: 2/3;
+        grid-column: 2;
+        grid-row: 2;
     }
     footer{
     grid-column: 1/4;
