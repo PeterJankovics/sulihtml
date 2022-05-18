@@ -11,8 +11,10 @@ header{
     height: 100px;
     padding: 20px;
     text-align: right;
-    background-image: url("images/");
+    background-image: url("images/redely.jpg");
     background-position-y: 450px;
+    background-size: 1200px;
+    color:azure
 }
 nav a{
     color: papayawhip;
@@ -49,15 +51,26 @@ footer{
     background-color: yellow;
     min-height: 50px;
     padding-top: 15px;
+    text-align: center;
+}
+.infobox{
+    background-color: lightgreen;
+    background-color: limegreen;
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px rgb(11, 87, 11);
+    border-radius: 5px;
+}
+.infobox h3{
+    margin: 0px;
+    text-align: center;
+    border-bottom: 1px solid rgb(3, 94, 3) ;
 }
 #grid-container{
     display: grid;
     grid-template-columns: auto;
 }
 @media only screen and (min-width: 600px){
-    footer{
-        background-color: orange;
-    }
     #grid-container{
         grid-template-columns: 25% 75%;
     }
@@ -79,9 +92,6 @@ footer{
     }
 }
 @media only screen and (min-width: 1200px){
-    footer{
-        background-color: brown;
-    }
     #grid-container{
         grid-template-columns: 25% 50% 25%;
         width: 1200px;
