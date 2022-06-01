@@ -2,10 +2,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
-    background-color: red;
-}
-nav{
-    background-color: orange;
+    background-color: white;
 }
 header{
     height: 100px;
@@ -17,7 +14,7 @@ header{
     color:azure
 }
 nav a{
-    color: papayawhip;
+    color: white;
     text-decoration: unset;
 }
 nav li{
@@ -29,7 +26,7 @@ nav ul{
     padding: 20px;
 }
 nav a:hover li{
-    color: green;
+    color: black;
     background-color: white;
 }
 body{
@@ -39,14 +36,15 @@ header{
     background-color: red;
 }
 nav{
-    background-color: orange;
+    background-color: lightgray;
+    
 }
 .jobb-sav{
-    background-color: chartreuse;
+    background-color: whitesmoke;
 
 }
 .tartalom{
-    background-color: aqua;
+    background-color: whitesmoke;
     padding: 15px;
 }
 .tartalom h2{
@@ -55,23 +53,23 @@ nav{
     font-variant: small-caps;
 }
 footer{
-    background-color: yellow;
+    background-color: lightgray;
     min-height: 50px;
     padding-top: 15px;
     text-align: center;
 }
 .infobox{
-    background-color: lightgreen;
-    background-color: limegreen;
+    background-color: black;
+    background-color: lightgray;
     margin: 10px;
     padding: 10px;
-    border: solid 1px rgb(11, 87, 11);
+    border: solid 1px black;
     border-radius: 5px;
 }
 .infobox h3{
     margin: 0px;
     text-align: center;
-    border-bottom: 1px solid rgb(3, 94, 3) ;
+    border-bottom: 1px solid black ;
 }
 #grid-container{
     display: grid;
@@ -118,12 +116,12 @@ footer{
     }
     .jobb-sav{
         grid-column: 3/4;
-        border-left: 10px;
-        border-color: black;
+        border-left: 3px solid black;
     }
     .tartalom{
         grid-column: 2;
         grid-row: 2;
+        
     }
     footer{
     grid-column: 1/4;
