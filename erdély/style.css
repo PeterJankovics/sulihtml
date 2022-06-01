@@ -42,7 +42,8 @@ nav{
     background-color: orange;
 }
 .jobb-sav{
-    background-color: green;
+    background-color: chartreuse;
+
 }
 .tartalom{
     background-color: aqua;
@@ -75,6 +76,11 @@ footer{
 #grid-container{
     display: grid;
     grid-template-columns: auto;
+}
+.tartalom picture *{
+    max-width: 50%;
+    float: left;
+    margin-right: 10px;
 }
 @media only screen and (min-width: 600px){
     #grid-container{
@@ -112,6 +118,8 @@ footer{
     }
     .jobb-sav{
         grid-column: 3/4;
+        border-left: 10px;
+        border-color: black;
     }
     .tartalom{
         grid-column: 2;
